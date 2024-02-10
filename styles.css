@@ -1,0 +1,104 @@
+body {
+    margin-left: 130px;
+    font-family: 'Abel', sans-serif;
+}
+.profile {
+    display: flex;
+}
+.profile-img {
+    width: 180px;
+    height: 250px;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.profile-txt {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.skills {
+    width: 400px;
+    height: 500px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.HTML {
+    width: 350px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color: orange;
+}
+.html {
+    width: 100px;
+    height: 50px;
+}
+.CSS {
+    width: 350px;
+    height: 50px;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: flex;
+    color: red;
+}
+.css {
+    width: 100px;
+    height: 50px;
+}
+.Azure {
+    width: 350px;
+    height: 50px;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: flex;
+    color: lightblue;
+}
+.azure {
+    width: 100px;
+    height: 50px;
+}
+.PHP {
+    width: 350px;
+    height: 50px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: flex;
+    color: blue;
+}
+.php {
+    width: 100px;
+    height: 50px;
+}
+.JS {
+    width: 350px;
+    height: 50px;
+    border: 3px solid green;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: flex;
+    color: green;
+}
+.js {
+    width: 100px;
+    height: 50px;
+}
