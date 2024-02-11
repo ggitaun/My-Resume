@@ -1,14 +1,17 @@
 body {
-    margin-left: 130px;
     font-family: 'Abel', sans-serif;
     background-color: black;
     background-image: url("paper.gif");
+}
+.six {
+       height: 400px;
 }
 .illst {
     position: absolute;
 }
 .profile {
     display: flex;
+    justify-content: center;
     position: relative;
 }
 .profile-img {
@@ -121,6 +124,7 @@ body {
     width: 100px;
     height: 50px;
 }
+
 @media only screen and  (max-width:600px){
     .profile {
         display: block;
@@ -132,4 +136,32 @@ body {
         margin-left: auto;
         margin-bottom: 20px;
     }
+    .profile-img {
+        margin-left: 200px;
+    }
+    .six {
+        background-size: cover;
+    }
+}
+
+@media only screen and  (max-width: 375px){
+    .profile {
+        display: block;
+        align-items: center;
+        align-self: center;
+    }
+    .profile-img {
+        margin-left: 100px;
+    }
+    .profile-txt {
+        margin-left: 5px;
+    }
+    .skills {
+        width: 350px;
+        margin-left: 5px;
+    }
+    .HTML,.CSS,.Azure,.PHP,.JS {
+        width: 300px;
+    }
+
 }

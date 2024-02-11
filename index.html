@@ -10,7 +10,12 @@
     <title>My-Resume</title>
 </head>
 <body>
-  <img class="illst" src="images/bg-desktop.svg" alt="illustration">
+  <picture>
+    <source class="six" srcset="images\bg-mobile.svg" media="(max-width: 600px)">
+    <source class="three" srcset="images\bg-mobile.svg" media="(max-width: 375px)">
+    <img class="illst" src="images/bg-desktop.svg" alt="illustration">
+  </picture>
+ 
     
          <div class="profile">
          <img class="profile-img" src="images/IMG_20220515_094517_369_transcpr_1-Photoroom.png-Photoroom.png" alt="Nivea Gitau">
