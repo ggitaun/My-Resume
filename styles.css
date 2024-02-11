@@ -1,30 +1,44 @@
 body {
     margin-left: 130px;
     font-family: 'Abel', sans-serif;
+    background-color: black;
+    background-image: url("paper.gif");
+}
+.illst {
+    position: absolute;
 }
 .profile {
     display: flex;
+    position: relative;
 }
 .profile-img {
     width: 180px;
     height: 250px;
-    border: 3px solid lightblue;
+    border: 3px solid plum;
     border-radius: 10px;
     margin-right: 30px;
+    opacity: 80%;
+
 }
 .profile-txt {
     width: 350px;
     height: 350px;
     text-align: center;
-    border: 3px solid lightblue;
+    border: 3px solid plum;
     border-radius: 10px;
     margin-right: 30px;
+    color: black;
+    background-color: plum;
+    opacity: 70%;
 }
 .skills {
     width: 400px;
     height: 500px;
-    border: 3px solid white;
+    border: 3px solid plum;
     border-radius: 10px;
+    text-align: center;
+    background-color: plum;
+    opacity: 70%;
 }
 .HTML {
     width: 350px;
@@ -36,7 +50,8 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
-    color: orange;
+    color: white;
+    background-color: orange;
 }
 .html {
     width: 100px;
@@ -51,7 +66,8 @@ body {
     margin-left: auto;
     margin-bottom: 10px;
     display: flex;
-    color: red;
+    color: white;
+    background-color: red;
 }
 .css {
     width: 100px;
@@ -60,13 +76,14 @@ body {
 .Azure {
     width: 350px;
     height: 50px;
-    border: 3px solid lightblue;
+    border: 3px solid skyblue;
     border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
     display: flex;
-    color: lightblue;
+    color: white;
+    background-color: skyblue;
 }
 .azure {
     width: 100px;
@@ -81,7 +98,8 @@ body {
     margin-left: auto;
     margin-bottom: 10px;
     display: flex;
-    color: blue;
+    color: white;
+    background-color: blue;
 }
 .php {
     width: 100px;
@@ -96,9 +114,22 @@ body {
     margin-left: auto;
     margin-bottom: 10px;
     display: flex;
-    color: green;
+    color: white;
+    background-color: green;
 }
 .js {
     width: 100px;
     height: 50px;
+}
+@media only screen and  (max-width:600px){
+    .profile {
+        display: block;
+        align-items: center;
+        align-self: center;
+    }
+    .profile-img,.profile-txt,.skills {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
 }
